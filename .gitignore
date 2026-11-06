@@ -1,0 +1,30 @@
+# Terraform: proveedores descargados por `terraform init` (cientos de MB, GitHub rechaza archivos > 100 MB)
+.terraform/
+*.terraform/
+
+# Estado local: contiene IDs y datos de la cuenta; no se sube
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Variables y credenciales
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.pem
+*.rdp
+.aws/
+
+# Planes guardados y overrides locales
+*.tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
